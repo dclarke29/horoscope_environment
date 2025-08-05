@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horoscope Key Reader (Simple)</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Custom styles for Inter font and general layout */
@@ -108,7 +109,8 @@
 
     <script type="module">
         // IMPORTANT: THIS IS YOUR DEPLOYED GOOGLE APPS SCRIPT WEB APP URL
-        const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyVNgym0Nt5FXIs331N2bBRfv4dUHCmF-FOqBlG-snfz3DURaPHOUIslErgDLmsSAdr/exec';
+        // Make sure this matches the URL you copied after the *latest* Apps Script deployment.
+        const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyvEJBsSnoDfSptuKKRcSlwIOyBtcZbG1OEXwKZoD5AJfm6INyXWDqWo6teJGKt_VPg/exec';
 
         const keyInput = document.getElementById('key-input');
         const getHoroscopeBtn = document.getElementById('get-horoscope-btn');
@@ -251,3 +253,4 @@
     </script>
 </body>
 </html>
+
